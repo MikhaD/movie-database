@@ -1,0 +1,33 @@
+{
+  "name": "movie-database",
+  "version": "0.0.0",
+  "description": "A tool to help me build and maintain my database of movies & series I have seen and want to see.",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -w -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhaD/movie-database.git"
+  },
+  "keywords": [],
+  "author": "MikhaD",
+  "license": "GPL-3.0",
+  "private": "true",
+  "bugs": {
+    "url": "https://github.com/MikhaD/movie-database/issues"
+  },
+  "homepage": "https://github.com/MikhaD/movie-database#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.1",
+    "@types/prompt-sync": "^4.1.1",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/jsdom": "^16.2.14",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.1.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
